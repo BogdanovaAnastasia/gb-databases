@@ -132,7 +132,8 @@ mysql> `\q`
 ```
 Bye
 ```
-anastasia@anastasia-VirtualBox:~$ `sudo mysql sample < example.sql`  
+anastasia@anastasia-VirtualBox:~$ `sudo mysql sample < example.sql`
+
 anastasia@anastasia-VirtualBox:~$ `sudo mysql`  
 ```
 ...
@@ -161,7 +162,8 @@ Bye
 ```
 4. (по желанию) Ознакомьтесь более подробно с документацией утилиты mysqldump. Создайте дамп единственной таблицы help_keyword базы данных mysql. Причем добейтесь того, чтобы дамп содержал только первые 100 строк таблицы.  
 
-anastasia@anastasia-VirtualBox:~$ `sudo mysqldump --opt --where="1 limit 100" mysql help_keyword > help_keyword.sql`  
+anastasia@anastasia-VirtualBox:~$ `sudo mysqldump --opt --where="1 limit 100" mysql help_keyword > help_keyword.sql`
+
 anastasia@anastasia-VirtualBox:~$ `ls`  
 ```
  examples.desktop   example.sql   help_keyword.sql   mysql-apt-config_0.8.10-1_all.deb  ...
